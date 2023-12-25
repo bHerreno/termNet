@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f0e3; /* Pastel peach background for the whole page */
+    color: #333;
+    margin: 0;
+    padding: 0;
+    height: 100vh; /* Ensure the body takes up at least the full height of the viewport */
+}
+
+.header {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 15px;
+    text-align: center;
+}
+
+/* The .container class may need to be adjusted depending on your HTML structure */
+/* If you are using Bootstrap's .container or .container-fluid, it might need to be styled separately */
+.container, .container-fluid {
+    padding: 5px;
+    padding-left: 10px;
+    margin: 0; /* Ensure no margin around the outer container */
+    height: 100%; /* Ensure containers take up full height */
+    background-color: transparent; /* This makes sure the container doesn't cover the body's background */
+}
+
+.sidebar {
+    background-color: #e9ecef;
+    padding: 10px;
+}
+
+.main {
+    padding: 10px;
+}
+
+
+
+/* Additional styles if needed for transparency */
+.shiny-output-panel, .shiny-input-container, .navbar, .sidebar, .well {
+    background-color: transparent; /* Ensure these don't have their own background */
+}
+
+/* Ajustes generales del contenedor principal para dar más espacio */
+.container {
+  padding-left: 20px; /* Aumenta el padding a la izquierda */
+}
+
+/* Estilo para la sección de carga y la imagen/texto */
+.upload-image-text-container {
+  display: flex; /* Activa flexbox para una disposición en línea */
+  justify-content: space-between; /* Separa los elementos */
+  align-items: flex-start; /* Alinea los elementos en la parte superior */
+  margin-top: 10px; /* Espacio desde el top */
+}
+
+/* Estilos para la sección de carga */
+.upload-section {
+  flex: 1; /* Permite que la sección de carga crezca */
+  padding-right: 20px; /* Espacio a la derecha de las cajas de carga */
+}
+
+/* Estilos para la imagen */
+.side-image {
+  max-width: 500px; /* Tamaño más grande para la imagen */
+  max-height: 300px; /* Altura máxima para mantener la proporción */
+}
+
+
+
+/* Estilo para el texto */
+.meme-text {
+  font-family: 'Anton', sans-serif;
+  font-size: 40px; /* Tamaño de fuente más grande */
+  text-transform: uppercase;
+  text-align: center;
+  color: white;
+text-shadow: 2px 2px 0 #000,  /* Sombra derecha */
+               -2px -2px 0 #000, /* Sombra izquierda */
+               2px -2px 0 #000,  /* Sombra superior derecha */
+               -2px 2px 0 #000,  /* Sombra inferior izquierda */
+               0 2px 0 #000,     /* Sombra inferior */
+               2px 0 0 #000,     /* Sombra derecha */
+               0 -2px 0 #000,    /* Sombra superior */
+               -2px 0 0 #000;    /* Sombra izquierda */}
+
+/* Estilos generales del layout */
+.fluidRow {
+  display: flex; /* Activa flexbox */
+  align-items: flex-start; /* Alinea los elementos al inicio verticalmente */
+}
+
+.flex-row {
+        display: flex;
+        align-items: start; /* Alinea los elementos al inicio */
+        justify-content: space-between; /* Separa los elementos */
+      }
