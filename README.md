@@ -32,7 +32,7 @@ This Shiny application is designed to analyze bibliographies exported from [JabR
 	    - **Use Case:** This input is useful for users dealing with bilingual data analysis, language studies, or any application that requires the processing of terms in both English and Spanish.
 	    - **Processing:** The application reads the uploaded file, converting it into a DataFrame format if not already in one. It then processes the bilingual terms for the intended analytical or operational purposes.
 
-	![](./supplemental_documentation /images/load_interface.png)
+	![](/supplemental_documentation /images/load_interface.png)
 
 ---
 
