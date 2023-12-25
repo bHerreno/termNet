@@ -32,7 +32,7 @@ This Shiny application is designed to analyze bibliographies exported from [JabR
 	    - **Use Case:** This input is useful for users dealing with bilingual data analysis, language studies, or any application that requires the processing of terms in both English and Spanish.
 	    - **Processing:** The application reads the uploaded file, converting it into a DataFrame format if not already in one. It then processes the bilingual terms for the intended analytical or operational purposes.
 
-	![](supplemental_documentation /images/load_interface.png)
+	![](./supplemental_documentation/images/load_interface.png)
 
 ---
 
@@ -63,7 +63,7 @@ Upon successful upload and processing of input data, our application constructs 
    - **Objective**: To group documents into clusters based on term similarities.
    - **Visualization**: Potential use of graphics to display the clusters.
    
-	![](./supplemental_documentation /images/absDummy.png)
+	![](./supplemental_documentation/images/absDummy.png)
 
 
 ## Multiple Correspondence Analysis (MCA)
@@ -96,7 +96,7 @@ After the presence/absence matrix is created using the `absDummy` function, our 
 
 **Utility:** MCA is particularly valuable in exploratory data analysis, providing insights into the complex relationships between terms within a large corpus of text. It can be used for pattern recognition, hypothesis generation, and enhancing the understanding of thematic structures in bibliographic datasets.
 
-![](./supplemental_documentation /images/MCA.png)
+![](./supplemental_documentation/images/MCA.png)
 
 
 ## K-Means Clustering
@@ -125,7 +125,7 @@ Following the MCA, users have the option to apply K-Means clustering to the data
 
 **Utility:** K-Means clustering is utilized to discover natural groupings in the data, identify patterns, and suggest categorizations that may not be immediately apparent. It is especially useful in uncovering thematic concentrations and variations within the bibliographic abstracts.
 
-![](./supplemental_documentation /images/k-means.png)
+![](./supplemental_documentation/images/k-means.png)
 
 
 ## Technical Considerations
