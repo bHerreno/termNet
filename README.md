@@ -16,6 +16,12 @@
 ## Overview
 This Shiny application is designed to analyze bibliographies exported from [JabRef](https://www.jabref.org/) in XML format. It facilitates the comparison of key terms in English and Spanish and uses multivariate analysis and clustering techniques to identify patterns and groupings in the data.
 
+This command will load the application:
+
+"R -e "shiny::runApp('termNet.R')""
+
+If the app doesn't run automatically in the web browser, copy the URL displayed in the terminal and paste it into your web browser.
+
 ## Application Structure
 
 1. **Data Loading**
