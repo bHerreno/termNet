@@ -113,7 +113,7 @@ ui <- fluidPage(
                 " Apply absDummy",
                 "Apply MCA",
                 "Apply K-Meeans"),
-    selected = "Carga de datos"
+    selected = "Load Data"
   ),
   
   ## load data panel
