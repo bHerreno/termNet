@@ -1,4 +1,4 @@
-# Cargar librerías necesarias
+# Load required libraries
 library(shiny)
 library(DT)
 library(FactoMineR)
@@ -84,7 +84,7 @@ prepare_data_for_analysis <- function(data) {
     data <- data.frame(lapply(data, factor))
     return(data)
   } else {
-    stop("Los datos deben tener al menos 3 columnas")
+    stop("Data must contain at least 3 columns")
   }
 }
 
@@ -195,7 +195,7 @@ ui <- fluidPage(
     
     ### outputs
     uiOutput("kmeansResults"),
-    uiOutput("fvizClusterUI")  # Salida para el gráfico de fviz_cluster
+    uiOutput("fvizClusterUI")  # Output for the fviz_cluster plot
    )
   )  
 )

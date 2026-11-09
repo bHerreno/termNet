@@ -41,57 +41,57 @@ body {
     background-color: transparent; /* Ensure these don't have their own background */
 }
 
-/* Ajustes generales del contenedor principal para dar más espacio */
+/* General main-container adjustments to provide more space */
 .container {
-  padding-left: 20px; /* Aumenta el padding a la izquierda */
+  padding-left: 20px; /* Increase left padding */
 }
 
-/* Estilo para la sección de carga y la imagen/texto */
+/* Styles for the upload section and image/text */
 .upload-image-text-container {
-  display: flex; /* Activa flexbox para una disposición en línea */
-  justify-content: space-between; /* Separa los elementos */
-  align-items: flex-start; /* Alinea los elementos en la parte superior */
-  margin-top: 10px; /* Espacio desde el top */
+  display: flex; /* Enable Flexbox for an inline layout */
+  justify-content: space-between; /* Separate the elements */
+  align-items: flex-start; /* Align elements at the top */
+  margin-top: 10px; /* Space from the top */
 }
 
-/* Estilos para la sección de carga */
+/* Styles for the upload section */
 .upload-section {
-  flex: 1; /* Permite que la sección de carga crezca */
-  padding-right: 20px; /* Espacio a la derecha de las cajas de carga */
+  flex: 1; /* Allow the upload section to grow */
+  padding-right: 20px; /* Space to the right of the upload fields */
 }
 
-/* Estilos para la imagen */
+/* Styles for the image */
 .side-image {
-  max-width: 500px; /* Tamaño más grande para la imagen */
-  max-height: 300px; /* Altura máxima para mantener la proporción */
+  max-width: 500px; /* Larger image size */
+  max-height: 300px; /* Maximum height to preserve the aspect ratio */
 }
 
 
 
-/* Estilo para el texto */
+/* Styles for the text */
 .meme-text {
   font-family: 'Anton', sans-serif;
-  font-size: 40px; /* Tamaño de fuente más grande */
+  font-size: 40px; /* Larger font size */
   text-transform: uppercase;
   text-align: center;
   color: white;
-text-shadow: 2px 2px 0 #000,  /* Sombra derecha */
-               -2px -2px 0 #000, /* Sombra izquierda */
-               2px -2px 0 #000,  /* Sombra superior derecha */
-               -2px 2px 0 #000,  /* Sombra inferior izquierda */
-               0 2px 0 #000,     /* Sombra inferior */
-               2px 0 0 #000,     /* Sombra derecha */
-               0 -2px 0 #000,    /* Sombra superior */
-               -2px 0 0 #000;    /* Sombra izquierda */}
+text-shadow: 2px 2px 0 #000,  /* Right shadow */
+               -2px -2px 0 #000, /* Left shadow */
+               2px -2px 0 #000,  /* Upper-right shadow */
+               -2px 2px 0 #000,  /* Lower-left shadow */
+               0 2px 0 #000,     /* Lower shadow */
+               2px 0 0 #000,     /* Right shadow */
+               0 -2px 0 #000,    /* Upper shadow */
+               -2px 0 0 #000;    /* Left shadow */}
 
-/* Estilos generales del layout */
+/* General layout styles */
 .fluidRow {
-  display: flex; /* Activa flexbox */
-  align-items: flex-start; /* Alinea los elementos al inicio verticalmente */
+  display: flex; /* Enable Flexbox */
+  align-items: flex-start; /* Align elements at the top vertically */
 }
 
 .flex-row {
         display: flex;
-        align-items: start; /* Alinea los elementos al inicio */
-        justify-content: space-between; /* Separa los elementos */
+        align-items: start; /* Align elements at the start */
+        justify-content: space-between; /* Separate the elements */
       }

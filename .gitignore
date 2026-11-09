@@ -1,0 +1,17 @@
+# R session and workspace files
+.Rhistory
+.RData
+.Ruserdata
+.Rproj.user/
+
+# Shiny and R temporary output
+rsconnect/
+*.Rout
+*.Rout.save
+*.zip
+
+# Operating-system and editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
